@@ -3,6 +3,8 @@ from django.http import HttpResponse
 from myadmin.models import User
 import hashlib
 from django.urls import reverse
+import random
+from PIL import Image, ImageDraw, ImageFont
 
 # Create your views here.
 
@@ -47,8 +49,7 @@ def logout(request):
 
 def verify(request):
     #引入随机函数模块
-    import random
-    from PIL import Image, ImageDraw, ImageFont
+    
     #定义变量，用于画面的背景色、宽、高
     #bgcolor = (random.randrange(20, 100), random.randrange(
     #    20, 100),100)
