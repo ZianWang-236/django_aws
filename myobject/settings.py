@@ -83,7 +83,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'osdb',
         'USER': 'root',
-        'PASSWORD': 'Sql528491!',
+        'PASSWORD': '528491',
         'HOST': 'localhost',
         'PORT': '3306',
     }
